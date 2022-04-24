@@ -35,6 +35,14 @@ console.log("TRENDING TOPICS")
 console.log(trending_topic.getTrendingTopics())
 
 
-// const hashtag = {
-//     etiqueta:
-// }
+const hashtag = {
+    etiqueta: "Hastags populares:",
+    lista: ["Madona", "Nintendo", "Playstation", "XBOX", "P4AU"],
+    getHashtags: function(){
+        return this.lista
+    }
+}
+
+console.log("HASHTAGS")
+console.log(hashtag.etiqueta)
+console.log(hashtag.getHashtags())
